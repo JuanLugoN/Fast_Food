@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Fast Food</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_about_us">About us</string>
+    <string name="action_contact_us">Contact us</string>
+    <string name="cart">Cart</string>
+    <string name="orders">Orders</string>
+    <string name="my_account">My account</string>
+    <string name="username">User name</string>
+    <string name="email_address">Email Address</string>
+    <string name="pizza_pepperoni">Pepperoni pizza</string>
+    <string name="pizza_hawaiian">Hawaiian pizza</string>
+    <string name="pizza_mushroom">Mushroom pizza</string>
+    <string name="pizza_four_cheese">Four cheese pizza</string>
+    <string name="pizza_neapolitan">Neapolitan pizza</string>
+    <string name="number_of">Quantity</string>
+    <string name="total_price">Total price</string>
+    <string name="increase">+</string>
+    <string name="decrease">-</string>
+    <string name="history">History</string>
+    <string name="add_to_car">Add to car</string>
+    <string name="buy">Buy</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
