@@ -51,8 +51,6 @@ public class PizzaAdapter extends RecyclerView.Adapter<PizzaAdapter.ViewHolder> 
     public static class ViewHolder extends RecyclerView.ViewHolder{
         private ImageView imgPizza;
         private TextView typePizza;
-        private final String EXTRA_SRC_IMG = "SRC_IMG";
-        private  final  String EXTRA_TYPE_PIZZA = "PIZZA_TYPE";
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             imgPizza = itemView.findViewById(R.id.img_pizza);

@@ -1,4 +1,4 @@
-package com.pdm.fastfood.ui.account;
+package com.pdm.fastfood.ui.history;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

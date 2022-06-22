@@ -15,4 +15,6 @@
     <color name="colorText">#FFFFFF</color>
     <color name="brown">#a18262</color>
     <color name="navy_blue">#000080</color>
+    <color name="navy_blue_transparent">#80000080</color>
+    <color name="light_grey">#F4F4F4</color>
 </resources>

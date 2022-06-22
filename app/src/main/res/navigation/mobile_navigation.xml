@@ -13,8 +13,8 @@
 
     <fragment
         android:id="@+id/nav_history"
-        android:name="com.pdm.fastfood.ui.account.HistoryFragment"
-        android:label="@string/my_account"
+        android:name="com.pdm.fastfood.ui.history.HistoryFragment"
+        android:label="@string/history"
         tools:layout="@layout/fragment_history" />
 
     <fragment

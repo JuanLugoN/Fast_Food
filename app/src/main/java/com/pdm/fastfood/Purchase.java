@@ -1,18 +1,22 @@
 package com.pdm.fastfood;
 
-import java.util.Objects;
-
 public class Purchase {
     private int id;
-    private String pizza;
+    private Pizza pizza;
     private int quantity;
     private String date;
 
-    public Purchase(int id, String pizza, int quantity, String date) {
+    public Purchase(int id, Pizza pizza, int quantity, String date) {
         this.id = id;
         this.pizza = pizza;
         this.quantity = quantity;
         this.date = date;
+    }
+
+    public Purchase(int id, Pizza pizza, int quantity) {
+        this.id = id;
+        this.pizza = pizza;
+        this.quantity = quantity;
     }
 
     public int getId() {
@@ -23,11 +27,9 @@ public class Purchase {
         this.id = id;
     }
 
-    public String getPizza() {
-        return pizza;
-    }
+    public Pizza getPizza() {return pizza;}
 
-    public void setPizza(String pizza) {
+    public void setPizza(Pizza pizza) {
         this.pizza = pizza;
     }
 
@@ -52,6 +54,6 @@ public class Purchase {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Purchase purchase = (Purchase) o;
-        return id == purchase.id && quantity == purchase.quantity && Objects.equals(pizza, purchase.pizza) && Objects.equals(date, purchase.date);
+        return id == purchase.id;
     }
 }
